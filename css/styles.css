@@ -1,0 +1,285 @@
+/* Import Google Fonts (Roboto Mono and Orbitron) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&family=Orbitron:wght@500&display=swap');
+
+:root {
+  --primary: ;
+  --secondory: ;
+
+  --colorA: ;
+  --colorB: ;
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  display: flex;
+  color: hsla(180, 29%, 72%, 0.75);
+  background: black;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Orbitron', Roboto Momo;
+  letter-spacing: 0.25rem;
+  line-height: 1.6rem;
+}
+
+.link {
+  color: white;
+}
+
+/* register Container Styles */
+.container {
+  display: block;
+  position: relative;
+  align-self: center;
+  padding: 0.1rem;
+  max-width: 90%;
+  min-width: 80%;
+  height: auto;
+  background: hsl(180deg 88.18% 56.86%);
+  clip-path: polygon(24px 0%, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0% 24px);
+}
+
+/* Panel Styles */
+.container-panel {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  width: calc(100% - 1rem);
+  padding: 0.5rem;
+  background: black;
+  height: auto;
+  clip-path: polygon(24px 0%, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0% 24px);
+}
+
+/* Button Styles */
+.compont-group,
+.button-group {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Electrolize', sans-serif;
+  text-align: center;
+  gap: 0.25rem;
+}
+
+/* Button Styles */
+.button {
+  display: flex;
+  align-content: center;
+  padding: 0.5rem 0.25rem;
+  color: #000000;
+  background: #FF0578;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  width: 100%;
+  margin: 0;
+}
+
+.clip-1 {
+  width: 15%;
+  clip-path: polygon(15px 0%, 100% 0, 100% calc(100% - 0px), calc(100% - 15px) 100%, 0 100%, 0% 15px);
+}
+
+.clip-2 {
+  width: 15%;
+  clip-path: polygon(0px 0%, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%, 0% 15px);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+/* Input Group Styles */
+.input-group {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 0.5rem 0;
+}
+
+/* Input Label Styles */
+.input-label {
+  font-family: 'Electrolize', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: -0.75rem;
+  left: 1.25rem;
+  border: 0.1rem solid hsl(180deg 88.18% 56.86%);
+  background: hsl(180deg 88.18% 20%);
+  padding: 0.25em 0.5rem;
+}
+
+/* Input Field Styles */
+.input-field {
+  background: hsl(180deg 88.18% 20%);
+  font-family: 'Electrolize', sans-serif;
+  font-size: 1.2rem;
+  border: 0.1rem solid hsl(180deg 88.18% 56.86%);
+  outline: 0;
+  width: calc(100% - 0.5rem);
+  height: 3rem;
+}
+
+/* Password Toggle Styles */
+.password-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+}
+
+.space {
+  margin: 1rem 0;
+}
+
+.extra {
+  margin-top: 0.75rem;
+}
+
+.or {
+  position: relative;
+  font-size: 1rem;
+  color: cyan;
+  margin: 0.5rem 0;
+}
+
+.or:after,
+.or:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0.5rem;
+  height: 0;
+  border: 1px solid cyan;
+}
+
+.or:after {
+  right: 0;
+  width: 45%;
+}
+
+.or:before {
+  left: 0;
+  width: 45%;
+}
+
+/* Hover Styles for Buttons */
+button:hover,
+svg:hover {
+  background: hsl(180deg 88.18% 56.86%);
+}
+
+.link:hover {
+  color: pink;
+}
+
+/* Triangles for Decorative Corners */
+.triangle-top-left,
+.triangle-bottom-right,
+.triangle-bottom-left,
+.triangle-top-right {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.triangle-top-left {
+  top: 0px;
+  left: 0px;
+  border-top: 2.5rem solid #FF0578;
+  border-right: 2.5rem solid transparent;
+}
+
+.triangle-bottom-right {
+  bottom: 0px;
+  right: 0px;
+  border-bottom: 2.5rem solid #FF0578;
+  border-left: 2.5rem solid transparent;
+}
+
+.triangle-bottom-left {
+  bottom: 0px;
+  left: 0px;
+  border-bottom: 2.5rem solid #FF0578;
+  border-right: 2.5rem solid transparent;
+}
+
+.triangle-top-right {
+  top: 0px;
+  right: 0px;
+  border-top: 2.5rem solid #FF0578;
+  border-left: 2.5rem solid transparent;
+}
+
+.input-group-2 {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  position: relative;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+
+/* Input Field Styles */
+.input-field-2 {
+  background: hsl(180deg 88.18% 25.86%);
+  font-family: 'Electrolize', sans-serif;
+  text-align: center;
+  font-size: 1.25rem;
+  border: 0.1rem solid hsl(180deg 88.18% 56.86%);
+  margin: 0.5rem 0;
+  border-radius: .25rem;
+  padding: 0.75rem 0.25rem;
+  outline: 0;
+  width: 10%;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* CSS styles for tablets */
+  .container {
+    /* Adjust font size for better readability on larger screens */
+    max-width: 50%;
+    min-width: 40%;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Your styles for tablets and laptops go here */
+
+  .container {
+    /* Adjust font size for better readability on larger screens */
+    max-width: 50%;
+    min-width: 40%;
+  }
+
+  /* Add more styles as needed */
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* CSS styles for tablets */
+  .container {
+    /* Adjust font size for better readability on larger screens */
+    max-width: 90%;
+    min-width: 80%;
+  }
+}
