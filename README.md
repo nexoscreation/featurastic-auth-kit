@@ -1,5 +1,5 @@
-![GitHub Pages](https://img.shields.io/github/deployments/nexoscreation/featuristic-auth-kit/github-pages.svg?style=flat-square&color=cyan)
-![GitHub Latest Release](https://img.shields.io/github/v/release/nexoscreation/auth-kit.svg?style=flat-square&color=cyan)
+![GitHub Pages](https://img.shields.io/github/deployments/nexoscreation/featurastic-auth-kit/github-pages.svg?style=flat-square&color=cyan)
+![GitHub Latest Release](https://img.shields.io/github/v/release/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)
 ![GitHub License](https://img.shields.io/github/license/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)
 [![Deploy Music Player Pages](https://github.com/nexoscreation/featurastic-music-page/actions/workflows/static.yml/badge.svg)](https://github.com/nexoscreation/featurastic-auth-kit/actions/workflows/static.yml)
