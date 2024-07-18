@@ -36,7 +36,7 @@ Provide step-by-step instructions on how to install and set up your project.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/noscreator/featuristic-auth-kit.git
+   git clone https://github.com/nexoscreation/featuristic-auth-kit.git
    ```
 2. Open `index.html` in your preferred web browser.
 3. Start chatting with the chatbot! You can type messages in the input field and press "Send" to interact with the chatbot.

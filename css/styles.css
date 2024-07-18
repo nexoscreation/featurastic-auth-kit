@@ -1,5 +1,5 @@
 /* Import Google Fonts (Roboto Mono and Orbitron) */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&family=Orbitron:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&family=Orbitron:wght@500&display=swap");
 
 :root {
   --primary: ;
@@ -27,7 +27,7 @@ svg {
 
 .title {
   margin: 0;
-  font-family: 'Orbitron', Roboto Momo;
+  font-family: "Orbitron", Roboto Momo;
   letter-spacing: 0.25rem;
   line-height: 1.6rem;
 }
@@ -46,7 +46,14 @@ svg {
   min-width: 80%;
   height: auto;
   background: hsl(180deg 88.18% 56.86%);
-  clip-path: polygon(24px 0%, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0% 24px);
+  clip-path: polygon(
+    24px 0%,
+    100% 0,
+    100% calc(100% - 24px),
+    calc(100% - 24px) 100%,
+    0 100%,
+    0% 24px
+  );
 }
 
 /* Panel Styles */
@@ -59,7 +66,14 @@ svg {
   padding: 0.5rem;
   background: black;
   height: auto;
-  clip-path: polygon(24px 0%, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0% 24px);
+  clip-path: polygon(
+    24px 0%,
+    100% 0,
+    100% calc(100% - 24px),
+    calc(100% - 24px) 100%,
+    0 100%,
+    0% 24px
+  );
 }
 
 /* Button Styles */
@@ -67,7 +81,7 @@ svg {
 .button-group {
   display: flex;
   flex-direction: row;
-  font-family: 'Electrolize', sans-serif;
+  font-family: "Electrolize", sans-serif;
   text-align: center;
   gap: 0.25rem;
 }
@@ -78,7 +92,7 @@ svg {
   align-content: center;
   padding: 0.5rem 0.25rem;
   color: #000000;
-  background: #FF0578;
+  background: #ff0578;
   justify-content: center;
   align-items: center;
   border: 0px;
@@ -88,19 +102,33 @@ svg {
 
 .clip-1 {
   width: 15%;
-  clip-path: polygon(15px 0%, 100% 0, 100% calc(100% - 0px), calc(100% - 15px) 100%, 0 100%, 0% 15px);
+  clip-path: polygon(
+    15px 0%,
+    100% 0,
+    100% calc(100% - 0px),
+    calc(100% - 15px) 100%,
+    0 100%,
+    0% 15px
+  );
 }
 
 .clip-2 {
   width: 15%;
-  clip-path: polygon(0px 0%, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%, 0% 15px);
+  clip-path: polygon(
+    0px 0%,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    0 100%,
+    0% 15px
+  );
 }
 
 /* Form Styles */
 form {
   display: flex;
   flex-direction: column;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
 }
 
@@ -115,7 +143,7 @@ form {
 
 /* Input Label Styles */
 .input-label {
-  font-family: 'Electrolize', sans-serif;
+  font-family: "Electrolize", sans-serif;
   font-size: 14px;
   font-weight: 400;
   position: absolute;
@@ -129,7 +157,7 @@ form {
 /* Input Field Styles */
 .input-field {
   background: hsl(180deg 88.18% 20%);
-  font-family: 'Electrolize', sans-serif;
+  font-family: "Electrolize", sans-serif;
   font-size: 1.2rem;
   border: 0.1rem solid hsl(180deg 88.18% 56.86%);
   outline: 0;
@@ -202,28 +230,28 @@ svg:hover {
 .triangle-top-left {
   top: 0px;
   left: 0px;
-  border-top: 2.5rem solid #FF0578;
+  border-top: 2.5rem solid #ff0578;
   border-right: 2.5rem solid transparent;
 }
 
 .triangle-bottom-right {
   bottom: 0px;
   right: 0px;
-  border-bottom: 2.5rem solid #FF0578;
+  border-bottom: 2.5rem solid #ff0578;
   border-left: 2.5rem solid transparent;
 }
 
 .triangle-bottom-left {
   bottom: 0px;
   left: 0px;
-  border-bottom: 2.5rem solid #FF0578;
+  border-bottom: 2.5rem solid #ff0578;
   border-right: 2.5rem solid transparent;
 }
 
 .triangle-top-right {
   top: 0px;
   right: 0px;
-  border-top: 2.5rem solid #FF0578;
+  border-top: 2.5rem solid #ff0578;
   border-left: 2.5rem solid transparent;
 }
 
@@ -239,12 +267,12 @@ svg:hover {
 /* Input Field Styles */
 .input-field-2 {
   background: hsl(180deg 88.18% 25.86%);
-  font-family: 'Electrolize', sans-serif;
+  font-family: "Electrolize", sans-serif;
   text-align: center;
   font-size: 1.25rem;
   border: 0.1rem solid hsl(180deg 88.18% 56.86%);
   margin: 0.5rem 0;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   padding: 0.75rem 0.25rem;
   outline: 0;
   width: 10%;
@@ -252,7 +280,6 @@ svg:hover {
 }
 
 @media only screen and (min-width: 768px) {
-
   /* CSS styles for tablets */
   .container {
     /* Adjust font size for better readability on larger screens */
@@ -260,7 +287,6 @@ svg:hover {
     min-width: 40%;
   }
 }
-
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Your styles for tablets and laptops go here */
@@ -275,7 +301,6 @@ svg:hover {
 }
 
 @media only screen and (max-width: 768px) {
-
   /* CSS styles for tablets */
   .container {
     /* Adjust font size for better readability on larger screens */
