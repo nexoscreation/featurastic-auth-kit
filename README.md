@@ -2,57 +2,44 @@
 ![GitHub Latest Release](https://img.shields.io/github/v/release/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)
 ![GitHub License](https://img.shields.io/github/license/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)
-[![Deploy Music Player Pages](https://github.com/nexoscreation/featurastic-music-page/actions/workflows/static.yml/badge.svg)](https://github.com/nexoscreation/featurastic-auth-kit/actions/workflows/static.yml)
 
----
+[![GitHub stars](https://img.shields.io/github/stars/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-kit)
+[![GitHub forks](https://img.shields.io/github/forks/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-kit/fork)
+[![GitHub issues](https://img.shields.io/github/issues/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-kit/issues)
 
-# Featuristic Auth Design Ui Kit
-[Live Preview](https://nexoscreation.github.io/featurastic-auth-kit/)
-Welcome to the Featurastic Auth Kit repository! This project provides a registration page with a variety of features for user sign-up.
+# Fui Authentication UI 🔐
 
----
+![Fui Authentication Banner](https://nexoscreation.github.io/featurastic-auth-kit/)
 
-### Features
+> 🚀 Secure, seamless, and stylish authentication solutions for modern web applications!
 
-- User-friendly form
-- Customizable input validation
-- Provides an engaging interface with interactive buttons and animations.
-- Ensures a secure regisration experience with customizable form fields.
-- Responsive design for various devices 
+## ✨ Features
 
----
+- 🔒 Multi-factor authentication
+- 🌐 OAuth 2.0 and OpenID Connect support
+- 📱 Responsive design for mobile and desktop
+- 🎨 Customizable UI components
+- 🔑 Password-less authentication options
+- 📊 Provides an engaging interface with interactive buttons and animations.s
 
-### Links
+## 🚀 Quick Start
 
-[![Web Demo](https://img.shields.io/badge/Web-Demo-blue?style=for-the-badge&logo=google-chrome)](https://nexoscreation.github.io/featurastic-auth-kit)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-green?style=for-the-badge&logo=github)](https://github.com/nexoscreation/featurastic-auth-kit)
-[![YouTube Video](https://img.shields.io/badge/YouTube-Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/rMnDe0iEGRs?si=B2viVesOhHYusbBG)
+```bash
+git clone https://github.com/nexoscreation/featurastic-auth-kit.git
+cd featurastic-auth-kit
+```
 
----
+Open index.html in your preferred web browser.
+Start chatting with the chatbot! You can type messages in the input field and press "Send" to interact with the chatbot.
 
-### Installation
-
-Provide step-by-step instructions on how to install and set up your project.
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/nexoscreation/featuristic-auth-kit.git
-   ```
-2. Open `index.html` in your preferred web browser.
-3. Start chatting with the chatbot! You can type messages in the input field and press "Send" to interact with the chatbot.
-
----
-
-### Usage
+## 📚 Documentation
 
 > Type your message in the input field and press "Send" to send it to the chatbot, The chatbot will process your message and respond accordingly, Use the "Clear Chat History" button to clear the conversation history if needed.
 
----
 
-### Contributing
+## 🤝 Contributing
 
-Contributions are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or submit a pull request.
-If you'd like to contribute to this project, please follow these ste
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/improvement`).
@@ -60,10 +47,19 @@ If you'd like to contribute to this project, please follow these ste
 4. Push to the branch (`git push origin feature/improvement`).
 5. Open a Pull Request.
 
-Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details.
+## 📣 Community
+
+- [Discord Server](https://discord.gg/)
+- [GitHub Discussions](https://github.com/nexoscreation/featurastic-auth-kit/discussions)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-### License
+Made with ❤️ by `<a href="https://github.com/nexoscreation">`Nexos Creation`</a>`
 
-This project is licensed under the [MIT License](LICENSE).
+
+
+`<a href="https://github.com/nexoscreation/featurastic-auth-kit/stargazers">`⭐ Star us on GitHub!`</a>`
